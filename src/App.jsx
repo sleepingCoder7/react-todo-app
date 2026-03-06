@@ -66,10 +66,13 @@ function App() {
   }, [darkMode]);
 
   const todoActions = {
+    setTodos,
     toggleTodo,
     handleDelete,
     handleEdit,
-    handleCheckbox
+    handleCheckbox,
+    showCompleted,
+    setShowCompleted,
   }
 
   return (
@@ -77,7 +80,7 @@ function App() {
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <div className={`container mx-auto rounded-xl p-5 min-h-screen shadow-md`} style={{ backgroundColor: "var(--bg-main)", color: "var(--text-main)" }}>
         <TodoInput todo={todo} setTodo={setTodo} handleAdd={handleAdd} editId={editId} />
-        <TodoList todos={todos} actions={todoActions} showCompleted={showCompleted} setShowCompleted={setShowCompleted} />
+        <TodoList todos={todos} actions={todoActions} />
       </div>
     </div>
   )

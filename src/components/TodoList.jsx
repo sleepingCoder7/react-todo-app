@@ -1,8 +1,8 @@
 import React from 'react'
 import TodoItem from './TodoItem'
 
-const TodoList = ({ todos, setShowCompleted, showCompleted, actions }) => {
-    const { toggleTodo, handleDelete, handleEdit, handleCheckbox } = actions;
+const TodoList = ({ todos, actions }) => {
+    const { setTodos, toggleTodo, handleDelete, handleEdit, handleCheckbox, showCompleted, setShowCompleted } = actions;
     const activeTodos = todos.filter(todo => !todo.isCompleted);
     const completedTodos = todos.filter(todo => todo.isCompleted);
 
