@@ -1,0 +1,15 @@
+/* Light Theme */
+.theme-light {
+  --bg-main: #e9d5ff;
+  --text-main: #000000;
+  --card-bg: rgba(255,255,255,0.6);
+  --input-bg: #ffffff;
+}
+
+/* Dark Theme */
+.theme-dark {
+  --bg-main: #000000;
+  --text-main: #facc15;
+  --card-bg: #1a1a1a;
+  --input-bg: #111111;
+}
