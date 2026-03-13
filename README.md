@@ -129,8 +129,8 @@ All your tasks are stored in the browser's localStorage. No data is lost when yo
 
 ## 📸 Screenshots
 
-![Todo App Screenshot 1](./screenshots/screenshot1.png)
-![Todo App Screenshot 2](./screenshots/screenshot2.png)
+![Todo App Screenshot 1](./screenshots/Screenshot1.png)
+![Todo App Screenshot 2](./screenshots/Screenshot2.png)
 
 ---
 
